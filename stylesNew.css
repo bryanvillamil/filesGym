@@ -1,0 +1,163 @@
+/* color blue
+  #143886
+*/
+
+/* ************** */
+/* Section Header */
+/* ************** */
+
+/* Styles general */
+p.readmore a {
+  background: #143886;
+}
+
+body.sparky_home .toprow {
+  background: #fff;
+}
+body.sparky_home .toprow .mp_top1 .moduletable h3 {
+  color: #333;
+}
+/* section redes horarios */
+body.sparky_home .toprow .mp_top1 .horarios-header .custom a.hours {
+  background: #143886;
+}
+
+/* section redes sociales header */
+body.sparky_home .toprow .mp_top1 .redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom,
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes,
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul {
+  width: 100%;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul {
+  margin: 8px 0 15px;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li {
+  margin: 0 5px;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a i {
+  font-size: 0;
+  cursor: pointer;
+  transition: all .5s;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a i:hover {
+  transform: scale(1.1);
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a i:before {
+  font-size: 24px;
+  cursor: pointer;
+  transition: all .5s;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+/* Colores de redes sociales */
+/* facebook*/
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.facebook i:before {
+  padding: 10px 14px;
+  font-size: 21px;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.facebook i:hover:before {
+  color: #3b5998;
+  border: 1px solid #3b5998;
+}
+ /* youtube*/
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.youtube i:before {
+  padding: 9px 7px;
+  font-size: 22px;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.youtube i:hover:before {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+/* instagram*/
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.instagram i:before {
+  padding: 8px 9px;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.instagram i:hover:before {
+  color: #8a3ab9;
+  border: 1px solid #8a3ab9;
+}
+/* whatsapp*/
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.whatsapp i:before {
+  padding: 8px 9px;
+}
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.whatsapp i:hover:before {
+  color: #128c7e;
+  border: 1px solid #128c7e;
+}
+
+/* section Phone header */
+body.sparky_home .toprow .mp_top1 .phone .custom .telefono .sedes {
+  flex-direction: column;
+}
+body.sparky_home .toprow .mp_top1 .phone .custom .telefono .sedes .box:last-child {
+margin-top: 5px;
+}
+body.sparky_home .toprow .mp_top1 .phone .custom .telefono .sedes .box,
+body.sparky_home .toprow .mp_top1 .phone .custom .telefono .wp strong {
+  color: #333;
+}
+
+
+
+/* section Menu */
+.sparky_home .topmenurow {
+  background: #143886;
+}
+/* .moduletable_menu nav ul li a:hover,
+.moduletable_menu nav > ul li:hover a {
+  color: #fff;
+} */
+.moduletable_menu .mnu_topmenu ul {
+  background: #fff;
+  border: 1px solid #bbb;
+}
+.moduletable_menu .mnu_topmenu ul li a {
+  color: #444;
+  border-bottom: 1px solid #bbb;
+}
+.moduletable_menu .mnu_topmenu ul li a:hover {
+  /* background: #143886; */
+  background: #333;
+}
+
+/* Content Box carousel center */
+.hero-carousel-container article.carousel-article .contents p a {
+  background: #143886;
+}
+.hero-carousel-container article.carousel-article .contents p a:hover {
+  color: #fff !important;
+}
+
+/* Home Box Hover */
+.advertrow .cell_pad.active_state .moduletable h3 {
+  color: #fff !important;
+}
+
+
+
+/* Styles in the Footer */
+.small_logo, .mnu_footermenu > li > a:hover {
+  color: #fff;
+}
+
+
+
+/* Media Querys */
+@media (max-width: 540px) {
+  /* section redes sociales header */
+  body.sparky_home .toprow .mp_top1 .redes-sociales {
+    width: 100%;
+  }
+}
