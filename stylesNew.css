@@ -17,7 +17,7 @@ body.sparky_inner .toprow {
 }
 body.sparky_home .toprow .mp_top1 .moduletable h3,
 body.sparky_inner .toprow .mp_top1 .moduletable h3 {
-  color: #333;
+  color: #143886;
 }
 /* section redes horarios */
 body.sparky_home .toprow .mp_top1 .horarios-header .custom a.hours,
@@ -159,7 +159,9 @@ body .toprow .mp_top1 .phone .custom .telefono .wp strong {
 .advertrow .cell_pad.active_state .moduletable h3 {
   color: #fff !important;
 }
-
+.advertrow .cell .cell_pad .box .custom .desc p a:hover {
+  color: #143886;
+}
 
 
 /* Styles in the Footer */
