@@ -1339,7 +1339,7 @@ footer a, footer a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: transparent;
   height: 65%;
   width: 1px;
   position: absolute;
@@ -1486,6 +1486,8 @@ footer a, footer a:hover {
 .advertrow .cell_pad .moduletable {
   overflow: hidden;
   height: 100%;
+	padding-bottom: 0;
+	padding-top: 0;
 }
 .advertrow .cell_pad.active_state .moduletable {
   margin-top: 0;

@@ -11,50 +11,62 @@ p.readmore a {
   background: #143886;
 }
 
-body.sparky_home .toprow {
+body.sparky_home .toprow,
+body.sparky_inner .toprow {
   background: #fff;
 }
-body.sparky_home .toprow .mp_top1 .moduletable h3 {
+body.sparky_home .toprow .mp_top1 .moduletable h3,
+body.sparky_inner .toprow .mp_top1 .moduletable h3 {
   color: #333;
 }
 /* section redes horarios */
-body.sparky_home .toprow .mp_top1 .horarios-header .custom a.hours {
+body.sparky_home .toprow .mp_top1 .horarios-header .custom a.hours,
+body.sparky_inner .toprow .mp_top1 .horarios-header .custom a.hours {
   background: #143886;
 }
 
 /* section redes sociales header */
-body.sparky_home .toprow .mp_top1 .redes-sociales {
+body.sparky_home .toprow .mp_top1 .redes-sociales,
+body.sparky_inner .toprow .mp_top1 .redes-sociales {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul {
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul,
+body.sparky_inner .toprow .mp_top1 .redes-sociales .custom .redes ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
+
+/* Home */
 body.sparky_home .toprow .mp_top1 .redes-sociales .custom,
 body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes,
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul {
+body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul,
+/* Inner */
+body.sparky_inner .toprow .mp_top1 .redes-sociales .custom,
+body.sparky_inner .toprow .mp_top1 .redes-sociales .custom .redes,
+body.sparky_inner .toprow .mp_top1 .redes-sociales .custom .redes ul {
   width: 100%;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul {
+
+body .toprow .mp_top1 .redes-sociales .custom .redes ul {
   margin: 8px 0 15px;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li {
   margin: 0 5px;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a i {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a i {
   font-size: 0;
   cursor: pointer;
   transition: all .5s;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a i:hover {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a i:hover {
   transform: scale(1.1);
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a i:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a i:before {
   font-size: 24px;
   cursor: pointer;
   transition: all .5s;
@@ -63,56 +75,59 @@ body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a i:befor
 }
 /* Colores de redes sociales */
 /* facebook*/
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.facebook i:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a.facebook i:before {
   padding: 10px 14px;
   font-size: 21px;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.facebook i:hover:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a.facebook i:hover:before {
   color: #3b5998;
   border: 1px solid #3b5998;
 }
  /* youtube*/
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.youtube i:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a.youtube i:before {
   padding: 9px 7px;
   font-size: 22px;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.youtube i:hover:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a.youtube i:hover:before {
   color: #ff0000;
   border: 1px solid #ff0000;
 }
 /* instagram*/
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.instagram i:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a.instagram i:before {
   padding: 8px 9px;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.instagram i:hover:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a.instagram i:hover:before {
   color: #8a3ab9;
   border: 1px solid #8a3ab9;
 }
 /* whatsapp*/
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.whatsapp i:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a.whatsapp i:before {
   padding: 8px 9px;
 }
-body.sparky_home .toprow .mp_top1 .redes-sociales .custom .redes ul li a.whatsapp i:hover:before {
+body .toprow .mp_top1 .redes-sociales .custom .redes ul li a.whatsapp i:hover:before {
   color: #128c7e;
   border: 1px solid #128c7e;
 }
 
 /* section Phone header */
-body.sparky_home .toprow .mp_top1 .phone .custom .telefono .sedes {
+body.sparky_home .toprow .mp_top1 .phone .custom .telefono .sedes,
+body.sparky_inner .toprow .mp_top1 .phone .custom .telefono .sedes {
   flex-direction: column;
 }
-body.sparky_home .toprow .mp_top1 .phone .custom .telefono .sedes .box:last-child {
+body.sparky_home .toprow .mp_top1 .phone .custom .telefono .sedes .box:last-child,
+body.sparky_inner .toprow .mp_top1 .phone .custom .telefono .sedes .box:last-child {
 margin-top: 5px;
 }
-body.sparky_home .toprow .mp_top1 .phone .custom .telefono .sedes .box,
-body.sparky_home .toprow .mp_top1 .phone .custom .telefono .wp strong {
+body .toprow .mp_top1 .phone .custom .telefono .sedes .box,
+body .toprow .mp_top1 .phone .custom .telefono .wp strong {
   color: #333;
 }
 
 
 
 /* section Menu */
-.sparky_home .topmenurow {
+.sparky_home .topmenurow,
+.sparky_inner .topmenurow {
   background: #143886;
 }
 /* .moduletable_menu nav ul li a:hover,
@@ -154,10 +169,104 @@ body.sparky_home .toprow .mp_top1 .phone .custom .telefono .wp strong {
 
 
 
+/* Backgrounds blancos en internas */
+body.sparky_inner {
+  background: #fff;
+}
+body.sparky_inner .sparky_wrapper .contentrow {
+  background: #fff;
+}
+body.sparky_inner .sparky_wrapper .contentrow nav ul.menu li a {
+  transition: all .5s;
+  padding: 9px 5px;
+}
+body.sparky_inner .sparky_wrapper .contentrow nav ul.menu li a:hover {
+  background: #143886;
+  border-bottom: 1px solid #143886;
+}
+body.sparky_inner .sparky_wrapper .contentrow ul.latestnews li a {
+  transition: all .5s;
+  padding: 9px 5px;
+}
+body.sparky_inner .sparky_wrapper .contentrow ul.latestnews li a:hover {
+  background: #143886;
+  border-bottom: 1px solid #143886;
+}
+body.sparky_inner .sparky_wrapper .contentrow .content_sparky .item-page .page-header h1 {
+  background: #fff;
+  width: 98%;
+  float: none;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+body.sparky_inner .sparky_wrapper .contentrow .content_sparky .item-page .page-header h1:after {
+  background: #333;
+  content: '';
+  width: 55%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+body.sparky_inner .sparky_wrapper .contentrow .content_sparky .item-page .page-header h2 {
+  background: #fff;
+  color: #143886;
+}
+body.sparky_inner .sparky_wrapper .contentrow .content_sparky p {
+  font-size: 16px;
+  line-height: 24px;
+}
+body.sparky_inner .sparky_wrapper .contentrow .content_sparky p strong {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+
+/* Footer Inner */
+
+body.sparky_inner .bottomrow,
+body.sparky_inner .sparky_full:last-child {
+  background: #333;
+}
+
+
+/* breadcrumbs */
+.breadcrumbs a.pathway {
+  transition: all .5s;
+}
+.breadcrumbs a.pathway:hover {
+  color: #143886;
+}
+
+
+
 /* Media Querys */
 @media (max-width: 540px) {
   /* section redes sociales header */
-  body.sparky_home .toprow .mp_top1 .redes-sociales {
+  body.sparky_home .toprow .mp_top1 .redes-sociales,
+  body.sparky_inner .toprow .mp_top1 .redes-sociales {
     width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  body.sparky_inner .sparky_wrapper .contentrow nav ul.menu li a,
+  body.sparky_inner .sparky_wrapper .contentrow ul.latestnews li a {
+    transition: all .5s;
+    padding: 12px 5px;
+    background: #143886;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+  }
+  body.sparky_inner .sparky_wrapper .contentrow nav ul.menu li a:hover,
+  body.sparky_inner .sparky_wrapper .contentrow ul.latestnews li a:hover {
+    background: #333;
   }
 }
